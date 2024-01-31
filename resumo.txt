@@ -1,0 +1,16 @@
+Tipos primitivos de valores:
+  - String: elementos textuais ("Texto")
+  - Number: elementos numéricos (20)
+  - Boolean: elementos boleanos (True or False)
+  - Null: elementos nulos (Null)
+  - Undefined: elementos indefinidos (Undefined)
+Como declarar variáveis:
+  - var nomeDaVariavel = valor;
+  - let nomeDaVariavel = valor;
+Como declarar constantes:
+  - const nomeDaConstante = valor;
+Operadores aritméticos:
+  - Soma ou Concatenação: +
+  - Subtração: -
+  - Multiplicação: *
+  - Divisão: /
