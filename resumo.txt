@@ -4,13 +4,49 @@ Tipos primitivos de valores:
   - Boolean: elementos boleanos (True or False)
   - Null: elementos nulos (Null)
   - Undefined: elementos indefinidos (Undefined)
+Tipos complexos de valores:
+  - Objetos: valores armazenados seguindo a lógica chave e valor ({ chave: valor })
+  - Array: valores amrazenados em conjuntos e acesados por índices ([ valor01, valor02 ])
 Como declarar variáveis:
-  - var nomeDaVariavel = valor;
-  - let nomeDaVariavel = valor;
+  - var nomeDaVariavel = valor; (variável pertencente ao escopo global)
+  - let nomeDaVariavel = valor; (variável pertencente ao escopo em que foi declarada)
 Como declarar constantes:
   - const nomeDaConstante = valor;
 Operadores aritméticos:
+  - Atribuição: =
   - Soma ou Concatenação: +
   - Subtração: -
   - Multiplicação: *
+  - Exponenciação: **
   - Divisão: /
+  - Resto: %
+  - Incremento: ++
+  - Decremento: --
+Operadores de comparação:
+  - Igual: ==
+  - Estritamente igual: ===
+  - Diferente: !=
+  - Estritamente diferente: !==
+  - Maior que: >
+  - Maior ou igual: >=
+  - Menor que: <
+  - Menor ou igual: <=
+Operadores lógicos:
+  - E: &&
+  - OU: ||
+  - Negação: !
+Formas de declarar um Array:
+  - let ou var ou const nomeDoArray = [valor01, valor02];
+  - let ou var ou const nomeDoArray = new Array(valor01, valor02);
+  - let ou var ou const nomeDoArray = Array(valor01, valor02);
+Acessando valor no Array:
+  - nomeDoArray[índice_do_valor]
+Adicionando valores no Array:
+  - Por índice: nomeDoArray[índice] = valor;
+  - Adicionando no fim: nomeDoArray.push(valor);
+  - Adicionando no inicio: nomeDoArray.unshift(valor);
+Métodos para trabalhar com Arrays:
+  - Verificar tamanho: nomeDoArray.length;
+  - Remover primeiro elemento: nomeDoArray.shift();
+  - Remover o último elemento: nomeDoArray.pop();
+  - Verificar índice de um elemento: nomeDoArray.indexOf(valor_do_elemento);
